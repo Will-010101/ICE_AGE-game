@@ -32,6 +32,10 @@ The project received second place at the district level for its educational desi
   <img src="certificates/photo_1.jpg" width="700">
 </p>
 
+<p align="center">
+  <img src="certificates/photo_2.jpg" width="700">
+</p>
+
 ## Screenshots
 
 <p align="center">
