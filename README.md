@@ -8,7 +8,7 @@ The project was designed to provide an engaging learning experience by presentin
 
 ## Achievement
 
-🥈 **2nd Place – District Level**  
+🥈 **2nd Place – Provincial Level**  
 **National Research Centers Software Competition**
 
 The project received second place at the district level for its educational design and implementation.
