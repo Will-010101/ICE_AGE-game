@@ -1,0 +1,75 @@
+﻿
+namespace ICE_AGE
+{
+    partial class loding
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(loding));
+            this.player1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.timer_loding = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.player1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // player1
+            // 
+            this.player1.Enabled = true;
+            this.player1.Location = new System.Drawing.Point(-1, -27);
+            this.player1.Name = "player1";
+            this.player1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("player1.OcxState")));
+            this.player1.Size = new System.Drawing.Size(702, 605);
+            this.player1.TabIndex = 0;
+            this.player1.Enter += new System.EventHandler(this.player1_Enter);
+            // 
+            // timer_loding
+            // 
+            this.timer_loding.Tick += new System.EventHandler(this.timer_loding_Tick);
+            // 
+            // loding
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Indigo;
+            this.ClientSize = new System.Drawing.Size(690, 480);
+            this.Controls.Add(this.player1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "loding";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "loding";
+            this.Load += new System.EventHandler(this.loding_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.player1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private AxWMPLib.AxWindowsMediaPlayer player1;
+        private System.Windows.Forms.Timer timer_loding;
+    }
+}
